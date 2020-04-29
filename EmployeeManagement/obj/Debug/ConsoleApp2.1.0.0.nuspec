@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ConsoleApp2</id>
+    <version>1.0.0</version>
+    <authors>ConsoleApp2</authors>
+    <owners>ConsoleApp2</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="DocumentFormat.OpenXml" version="2.10.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore" version="3.1.3" exclude="Build,Analyzers" />
+        <dependency id="System.Data.SqlClient" version="4.8.1" exclude="Build,Analyzers" />
+        <dependency id="System.Runtime.Extensions" version="4.3.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\uchiha\source\repos\ConsoleApp2\bin\Debug\netcoreapp3.1\ConsoleApp2.runtimeconfig.json" target="lib\netcoreapp3.1\ConsoleApp2.runtimeconfig.json" />
+    <file src="C:\Users\uchiha\source\repos\ConsoleApp2\bin\Debug\netcoreapp3.1\ConsoleApp2.dll" target="lib\netcoreapp3.1\ConsoleApp2.dll" />
+  </files>
+</package>
